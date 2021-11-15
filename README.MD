@@ -7,7 +7,7 @@ https://github.com/db-journey/journey
 # install
 go get github.com/db-journey/journey/v2
 ```
-update DB connectionURL:  -url <*url*> on makefile
+update DB connection URL:  -url <*url*> on makefile
 
 ## Migration files templating
 If a file in the migrations folder has the extension `.tpl` (it must match the driver file extensions, so `.cql.tpl` for cassandra drivers), it will parsed and executed using journey current environment.
